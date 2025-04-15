@@ -1,0 +1,34 @@
+﻿Thanks for the screenshot! It looks like you're viewing the **"Forks" tab** _after_ you've already forked the repository. That's why it's showing analytics like Pulse, Contributors, Network, etc.
+
+### Here's what probably happened:
+- You already **clicked Fork** earlier, so now you're in your own forked repo (`123sailee/sanjivani_de...`).
+- That's perfect — step 1 is already done!
+
+---
+
+### Now continue with the next steps:
+
+1. **Clone your fork (on your PC or termux):**
+```bash
+git clone https://github.com/123sailee/sanjivani_de...git
+cd sanjivani_de...
+```
+
+2. **Create a new branch:**
+```bash
+git checkout -b my-feature-branch
+```
+
+3. **Make your changes**, then:
+```bash
+git add .
+git commit -m "Added feature or fixed bug"
+git push origin my-feature-branch
+```
+
+4. **Open Pull Request:**
+- Go to your repo on GitHub (`123sailee/sanjivani_de...`)
+- You’ll see a **“Compare & pull request”** button — click it.
+- Confirm the base repo and branch, write a message, and **Create Pull Request**.
+
+If you want me to help you write the command for a specific change or commit message, just say the word.
